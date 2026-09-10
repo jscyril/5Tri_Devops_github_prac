@@ -38,4 +38,21 @@ button{
     width:200px;
 }
 
+.gallery{
+    margin:30px;
+    text-align:center;
+}
+
+.gallery-grid{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.gallery img{
+    width:250px;
+    height:170px;
+    object-fit:cover;
+}
 
